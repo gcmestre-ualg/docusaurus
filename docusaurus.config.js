@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Test Site',
+  title: 'Gcmestre Ualg',
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
 
@@ -14,12 +14,12 @@ const config = {
   url: 'https://github.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/docusaurus-ghpages/',
+  baseUrl: '/docusaurus/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'pmguerre', // Usually your GitHub org/user name.
-  projectName: 'docusaurus-ghpages', // Usually your repo name.
+  organizationName: 'gcmestre', // Usually your GitHub org/user name.
+  projectName: 'docusaurus', // Usually your repo name.
   deploymentBranch: 'gh-pages',
 
   onBrokenLinks: 'throw',

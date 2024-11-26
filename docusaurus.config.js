@@ -65,10 +65,10 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Documentação da biblioteca',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/Logo_Svg_Free.svg',
         },
         items: [
           {
@@ -82,6 +82,11 @@ const config = {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
             position: 'right',
+          },
+          {
+            href: '/markdown-page',
+            label: 'Markdown',
+            position: 'left',
           },
         ],
       },
@@ -98,23 +103,6 @@ const config = {
             ],
           },
           {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
             title: 'More',
             items: [
               {
@@ -125,6 +113,10 @@ const config = {
                 label: 'GitHub',
                 href: 'https://github.com/facebook/docusaurus',
               },
+              {
+                label: 'Ualg',
+                href: 'https://www.ualg.pt'
+              }
             ],
           },
         ],
